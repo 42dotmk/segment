@@ -1,5 +1,5 @@
 {
-  "name": "segment-font",
+  "name": "@42mk/segment",
   "version": "1.0.0",
   "description": "Segment — a custom display/icon font.",
   "type": "module",
@@ -36,11 +36,26 @@
     "webfont",
     "display-font"
   ],
-  "author": "",
+  "author": "Pavlina Buchevska Boshkova",
+  "contributors": [
+    "Mila Jovanovikj (digit glyphs)",
+    "Darko Bozhinovski (font packaging)"
+  ],
   "license": "OFL-1.1",
+  "homepage": "https://42dotmk.github.io/Segment/demo/",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/42dotmk/Segment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/42dotmk/Segment/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=18"
   },
   "devDependencies": {
     "globby": "^14.0.2",

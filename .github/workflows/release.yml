@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   release:
@@ -17,6 +18,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          registry-url: "https://registry.npmjs.org"
 
       - run: npm ci
       - run: npm run build
@@ -41,3 +43,8 @@ jobs:
             segment-font-${{ github.ref_name }}.tar.gz
             dist/segment.woff2
             dist/segment.ttf
+
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

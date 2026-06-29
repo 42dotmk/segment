@@ -134,6 +134,7 @@ const css = `@font-face {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  letter-spacing: 0.06em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

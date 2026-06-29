@@ -1,19 +1,35 @@
-<svg id="glyph20_font_U_xx_svg125" viewBox="0 0 165.37 278.005" width="19.035053" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="glyph16_font_Q_xx_svg125" viewBox="0 0 182.37 277.005" width="21.067634" height="32" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
-        :root, .palette0 {color: currentColor;
+        :root,
+        .palette0 {
+            color: currentColor;
             --color0: #dadada;
             --color1: rgba(218, 218, 218, 0);
         }
     </style>
-    <g id="glyph20_font_U_xx_g117" stroke="currentColor" fill="var(--color0, #dadada)" transform="translate(-645.67 -689.09998)" stroke-miterlimit="10">
+    <g xmlns="http://www.w3.org/2000/svg" id="glyph20_font_U_xx_g117" stroke="currentColor"
+        fill="var(--color0, #dadada)" transform="translate(-645.67 -689.09998)" stroke-miterlimit="10">
         <g id="glyph20_font_U_xx_g116">
             <g id="glyph20_font_U_xx_g115">
-                <line id="glyph20_font_U_xx_line115" stroke-width="8.5" class="cls-4" x1="796.91998" x2="746.15002" y1="896.21002" y2="956.21997" />
-                <path id="glyph20_font_U_xx_path115" stroke-width="17.01" fill="var(--color1, rgba(218, 218, 218, 0))" class="cls-6" d="M796.71 831.89v88.72c-3.58 4.11-32.82 37.69-33.16 38.07-23.35 0-71.76 0-71.76 0" />
+
+
             </g>
-            <line id="glyph20_font_U_xx_line116" stroke-width="16.84" class="cls-5" x1="796.71002" x2="796.71002" y1="689.12" y2="828.13" />
+            <line id="glyph20_font_U_xx_line116" stroke-width="16.84" class="cls-5" x1="796.71002" x2="796.71002"
+                y1="689.12" y2="828.13" />
         </g>
-        <path id="glyph20_font_U_xx_path116" stroke="none" d="M662.67 831.87v85.53c6.16 7.07 22.26 25.56 28.53 32.75h13.96c0 0 14.04 16.74 14.04 16.74v0.27h-35.74c0 0-2.54-2.92-2.54-2.92-0.34-0.38-29.59-33.97-33.16-38.08l-2.09-2.4v-91.9z" />
-        <line id="glyph20_font_U_xx_line117" stroke-width="16.84" class="cls-5" x1="654.16998" x2="654.16998" y1="689.09998" y2="828.12" />
+
+        <line id="glyph20_font_U_xx_line117" stroke-width="16.84" class="cls-5" x1="654.16998" x2="654.16998"
+            y1="689.09998" y2="828.12" />
+    </g>
+    <path xmlns="http://www.w3.org/2000/svg" id="glyph20_font_U_xx_path116" stroke="none"
+        d="M662.67 831.87v85.53c6.16 7.07 22.26 25.56 28.53 32.75h13.96c0 0 14.04 16.74 14.04 16.74v0.27h-35.74c0 0-2.54-2.92-2.54-2.92-0.34-0.38-29.59-33.97-33.16-38.08l-2.09-2.4v-91.9z" />
+    <g id="glyph16_font_Q_xx_g78" transform="translate(-2345.865 -1270.185)">
+        <g id="glyph16_font_Q_xx_g77" stroke-width="17.01" stroke="currentColor" fill="none" stroke-miterlimit="10">
+            <line id="glyph16_font_Q_xx_line76" stroke-width="8.5" class="cls-4" x1="2495.1101" x2="2438.8999"
+                y1="1477.09" y2="1537.1" />
+            <path id="glyph16_font_Q_xx_path76" class="cls-6"
+                d="M2354.37 1412.48v114.15c0 7.14 5.78 12.92 12.92 12.92 21.3 0 63.59 0 85.39 0 3.51 0 6.86-1.42 9.3-3.95 7.05-7.32 22.09-22.91 29.29-30.38 2.32-2.41 3.61-5.62 3.61-8.96v-83.5" />
+        </g>
     </g>
 </svg>

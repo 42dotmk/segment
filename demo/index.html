@@ -316,7 +316,7 @@
       font-size: clamp(4rem, 14vw, 11rem);
       font-weight: 1;
       line-height: 1;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.08em;
       margin-bottom: 1.5rem;
       word-break: break-all;
     }
@@ -484,6 +484,7 @@
       width: 100%;
       font-family: "Segment", sans-serif;
       font-size: clamp(2rem, 6vw, 4.5rem);
+      letter-spacing: 0.06em;
       padding: 1rem 1.25rem;
       background: var(--dark-700);
       border: 1px solid var(--border);
@@ -560,7 +561,7 @@
       font-family: "Segment", sans-serif;
       font-size: 5rem;
       line-height: 1.15;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.06em;
       word-break: break-word;
       padding: 2rem;
       background: var(--dark-800);
@@ -832,6 +833,7 @@
     .marquee-item {
       font-family: "Segment", sans-serif;
       font-size: clamp(2rem, 4vw, 3.5rem);
+      letter-spacing: 0.08em;
       white-space: nowrap;
       color: var(--text-muted);
       transition: color 0.3s;
@@ -960,7 +962,7 @@
             </svg>
             View on GitHub
           </a>
-          <a href="https://www.npmjs.com/package/segment-font" class="btn btn--outline">
+          <a href="https://www.npmjs.com/package/@42mk/segment" class="btn btn--outline">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M0 7.334v8h6.666v1.332H12v-1.332h12v-8H0zm6.666 6.664H5.334v-4H3.999v4H1.335V8.667h5.331v5.331zm4 0h-2.666V8.667h2.666v5.331zm12 0h-1.33v-4h-1.336v4h-1.335v-4h-1.33v4h-2.671V8.667h8.002v5.331zM11.333 8.667h2.666v4h-2.666v-4z"/>
             </svg>
@@ -1111,11 +1113,11 @@
           <div class="code-block__header">
             <span>npm</span>
             <button type="button" class="code-block__copy"
-              onclick="copyCode(this, 'npm install segment-font')">Copy</button>
+              onclick="copyCode(this, 'npm install @42mk/segment')">Copy</button>
           </div>
           <div class="code-block__body">
             <pre><span class="cmt"># Install the package</span>
-<span class="kw">npm install</span> segment-font</pre>
+<span class="kw">npm install</span> @42mk/segment</pre>
           </div>
         </div>
 
@@ -1123,11 +1125,11 @@
           <div class="code-block__header">
             <span>css</span>
             <button type="button" class="code-block__copy"
-              onclick="copyCode(this, '@import &quot;segment-font/css&quot;;')">Copy</button>
+              onclick="copyCode(this, '@import &quot;@42mk/segment/css&quot;;')">Copy</button>
           </div>
           <div class="code-block__body">
             <pre><span class="cmt">/* Import the font */</span>
-<span class="kw">@import</span> <span class="str">"segment-font/css"</span>;
+<span class="kw">@import</span> <span class="str">"@42mk/segment/css"</span>;
 
 <span class="prop">.headline</span> {
   <span class="kw">font-family</span>: <span class="str">"Segment"</span>, sans-serif;
@@ -1139,16 +1141,16 @@
           <div class="code-block__header">
             <span>html</span>
             <button type="button" class="code-block__copy"
-              onclick="copyCode(this, '&lt;link rel=&quot;stylesheet&quot; href=&quot;segment-font/dist/segment.css&quot;&gt;')">Copy</button>
+              onclick="copyCode(this, '&lt;link rel=&quot;stylesheet&quot; href=&quot;@42mk/segment/dist/segment.css&quot;&gt;')">Copy</button>
           </div>
           <div class="code-block__body">
             <pre><span class="cmt">&lt;!-- Direct file reference --&gt;</span>
 <span class="kw">&lt;link</span> <span class="prop">rel</span>=<span class="str">"preload"</span>
-      <span class="prop">href</span>=<span class="str">"segment-font/dist/segment.woff2"</span>
+      <span class="prop">href</span>=<span class="str">"@42mk/segment/dist/segment.woff2"</span>
       <span class="prop">as</span>=<span class="str">"font"</span> <span class="prop">type</span>=<span class="str">"font/woff2"</span>
       <span class="prop">crossorigin</span><span class="kw">&gt;</span>
 <span class="kw">&lt;link</span> <span class="prop">rel</span>=<span class="str">"stylesheet"</span>
-      <span class="prop">href</span>=<span class="str">"segment-font/dist/segment.css"</span><span class="kw">&gt;</span></pre>
+      <span class="prop">href</span>=<span class="str">"@42mk/segment/dist/segment.css"</span><span class="kw">&gt;</span></pre>
           </div>
         </div>
 
@@ -1158,12 +1160,12 @@
           </div>
           <div class="code-block__body">
             <pre><span class="cmt">// Available subpath exports</span>
-<span class="kw">import</span> <span class="str">"segment-font"</span>         <span class="cmt">// CSS</span>
-<span class="kw">import</span> <span class="str">"segment-font/css"</span>     <span class="cmt">// CSS</span>
-<span class="kw">import</span> <span class="str">"segment-font/woff2"</span>   <span class="cmt">// .woff2</span>
-<span class="kw">import</span> <span class="str">"segment-font/woff"</span>    <span class="cmt">// .woff</span>
-<span class="kw">import</span> <span class="str">"segment-font/ttf"</span>     <span class="cmt">// .ttf</span>
-<span class="kw">import</span> <span class="str">"segment-font/svg"</span>     <span class="cmt">// .svg</span></pre>
+<span class="kw">import</span> <span class="str">"@42mk/segment"</span>         <span class="cmt">// CSS</span>
+<span class="kw">import</span> <span class="str">"@42mk/segment/css"</span>     <span class="cmt">// CSS</span>
+<span class="kw">import</span> <span class="str">"@42mk/segment/woff2"</span>   <span class="cmt">// .woff2</span>
+<span class="kw">import</span> <span class="str">"@42mk/segment/woff"</span>    <span class="cmt">// .woff</span>
+<span class="kw">import</span> <span class="str">"@42mk/segment/ttf"</span>     <span class="cmt">// .ttf</span>
+<span class="kw">import</span> <span class="str">"@42mk/segment/svg"</span>     <span class="cmt">// .svg</span></pre>
           </div>
         </div>
       </div>
@@ -1189,10 +1191,22 @@
             typeface.</p>
         </div>
         <div class="credit-card reveal" style="transition-delay:0.1s;">
+          <div class="credit-card__role">Number Glyphs</div>
+          <h3 class="credit-card__name">Mila Jovanovikj</h3>
+          <p class="credit-card__desc">Designed the digit glyphs 0&ndash;9, extending the typeface with a matching set of
+            numerals.</p>
+        </div>
+        <div class="credit-card reveal" style="transition-delay:0.2s;">
           <div class="credit-card__role">Font Packaging</div>
           <h3 class="credit-card__name">Darko Bozhinovski</h3>
           <p class="credit-card__desc">Converted the original SVG design into a distributable multi-format web font
             package.</p>
+        </div>
+        <div class="credit-card reveal" style="transition-delay:0.3s;">
+          <div class="credit-card__role">Demo &amp; Packaging</div>
+          <h3 class="credit-card__name">Ilija Boshkov</h3>
+          <p class="credit-card__desc">Put this page together and handled the finishing touches around npm
+            packaging.</p>
         </div>
       </div>
 
@@ -1231,7 +1245,7 @@
             </svg>
             Releases
           </a>
-          <a href="https://www.npmjs.com/package/segment-font" class="footer__link">
+          <a href="https://www.npmjs.com/package/@42mk/segment" class="footer__link">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M0 7.334v8h6.666v1.332H12v-1.332h12v-8H0zm6.666 6.664H5.334v-4H3.999v4H1.335V8.667h5.331v5.331zm4 0h-2.666V8.667h2.666v5.331zm12 0h-1.33v-4h-1.336v4h-1.335v-4h-1.33v4h-2.671V8.667h8.002v5.331zM11.333 8.667h2.666v4h-2.666v-4z"
                 fill="currentColor" stroke="none" />
